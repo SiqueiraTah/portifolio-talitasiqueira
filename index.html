@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Projeto Final ♥ Talita Siqueira</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Logo e Menu-->
+    <header class="header">
+        <link rel="shortcut icon" type="imagex/png" href="./images/img_icones/developer.ico">
+            <img src="./images/img_layout/logo_ts.png" alt="Logo Talita Siqueira - Projeto Elas Na Tech 2023 -Desenvolvimento Web " class="header_logo">                
+        
+        <!-- Menu deve ser hamburguer qndo 576px, display:nome-->
+        <span id="hamburguer" class="material-symbols-rounded">
+            menu
+        </span>
+        <nav id="itens_menu" class="header_nav">
+            <ul>
+                <li><a href="#sobre_mim">Sobre mim</a></li>
+                <li><a href="#jornada">A Jornada</a></li>
+                <li><a href="#desafios">Desafios</a></li>
+                <li><a href="#conquistas">Conquistas</a></li>
+                <li><a href="#aprendizados">Aprendizados</a></li>
+                <li><a href="#projetos">Projetos</a> </li>
+                <li><a href="#depoimento">Depoimento</a></li>             
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>     
+    
+    <!-- Seção 1 a 7 -->
+    <main class="sections">
+        <div class="flexbox_main">
+
+        <!-- Sobre Mim -->
+        <section class="sobre_mim" id="sobre_mim">
+            <div class="quemsou_titulo">
+            <h2>Sobre Mim</h2>
+                   
+            </div>
+            <div class="container_quemsou">
+            <div class="quemsou_txt">
+            <p> Me chamo Talita Mara de Siqueira, tenho 34 anos e sou resido no Vale do Paraíba/SP. <br> 
+                &emsp;&emsp;Formada em Educação Física Bacharelado pela Universidade Paulista-UNIP, atuei por alguns anos como professora de natação.<br>
+                &emsp;&emsp;Atualmente sou Graduanda em Análise e Desenvolvimento de 
+                Sistemas pelo Instituto Federal de Educação Ciência e Tecnologia de São Paulo - Campus Jacareí,e resolvi buscar novos conhecimentos na 
+                área da tecnologia a fim de usar as aplicações tecnológicas no campo da pesquisa e desenvolvimento voltadas para a área da saúde e na área
+                ambiental. <br>
+                &emsp;&emsp;Não recuso uma boa conversa entre amigos, principalmente se for acompanhada de café e nas horas de lazer gosto principalmente de 
+                cantar e tocar violão. Sempre que posso realizo minhas atividades ouvido música.</p>
+            </div> 
+
+            <div class="quemsou_img">
+                <img src="./images/img_layout/talita_siqueira.jpg" alt="Talita Mara de Siqueira">
+            </div>  
+            </div>
+        </section>
+
+        <!-- A jornada na Elas na Tech -->
+        <section class="jornada" id="jornada">
+            <h2>A Grande Jornada</h2>
+            <p> Sempre na busca de realizar cursos de aperfeiçoamento na área de Análise e Desenvolvimento de Sistemas enquanto realizo em paralelo o Tecnólogo de ADS,
+                fico atenta a cursos gratuitos específicos de cada competência, e quando estes são anunciados em mídias ou jornais online, realizo minha inscrição
+                no intuito de adquirir novos conhecimentos. Dessa forma ocorreu com o Elas Na Tech 2023.<br>
+                &emsp;&emsp;Eu já conhecia a IBM e a Udemy pois ambas são empresas muito indicadas na área Tech, e posterior vim a conhecer o trabalho desenvolvido pela JA BRASIL.<br>
+                &emsp;&emsp;Quando li o anuncio da  Elas Na Tech 2023, não tive dúvidas, entrei nos links de cadastro, li o regulamento, me inscrevi e fiquei na torcida.
+                Felizmente, para minha sorte consegui a vaga, e em Abril já disponibilizaram que eu faria parte da TURMA 10, no sistema síncrono de aulas. Desde então, 
+                todo a jornada ocorreu de forma tranquila e com todos os materiais, aulas e desafios fornecidos sempre contendo muita qualidade e bem estruturados. <br>
+                &emsp;&emsp;A formação iniciou-se do zero e chegamos nessa etapa de conclusão com um conhecimento sodimentado a ponto de conseguir criar um portifólio com
+                todas as instruções, técnicas e conhecimento ensinados e aprendidos nessas 20 semanas. 
+
+            </p>
+        </section>
+
+        <!-- Desafios superados -->
+        <section class="desafios" id="desafios">
+            <h2>Desafios Superados</h2>
+            <p> Dentro da aprendizagem de Desenvolvimento Web houveram diversos momentos desafiadores, mas os dois maiores desafios foram:<br>
+                1º-fixar o conteúdo de flexbox tanto no contexto total da teria (como, quando e porquê), como no contexto de aplicabilidade (a execução correta),
+                pois eu já havia estudado superficialmente a utilização de grids e colunas e não sabia nem ao menos que existia a possibilidade de trabalhar o 
+                redimensionamento de blocos de forma mais fácil, e;<br>
+                2º maior desafio, porém não menos desafiador que flexbox, foi trabalhar com a responsividade, pois a questão das midia queries no corpo do css me confundiram muito.
+            </p>
+        </section>
+
+        <!-- Conquistas até momento -->
+        <section class="conquistas" id="conquistas">
+            <h2>Minhas Conquistas</h2>
+            <p>Adquirir novos conhecimento, ser selecionada como aluna em uma formação de Desenvelvimento Web  no formato síncrono, 
+               ter acesso a todo o recurso didático que foi liberado nas plataformas IBM e Udemy, ter instrutoras tão dedicadas e 
+               colegas de turma tão solícitas já é de fato uma conquista. Mas o orgulho de criar uma página web do zero e ver o conteúdo 
+               criando 'vida' e sendo aprimorado a cada aula, linkando HTML (texto), mais CSS (estilização) e JAVASCRIPT (interação) fomando um
+               conteúdo responsivo e dinâmico é simplismente incrível.</p>
+        </section>
+
+        <!-- Aprendizados (listar conteúdos) -->
+        <section class="aprendizados" id="aprendizados">
+            <h2>Aprendizados Durante a Jornada.</h2>
+            <p>A formação em Desenvolvimento Web contou primeiramente com a familiarização no setor Tech, a plataforma de ensino e demais recursos.<br>
+                &emsp;&emsp; Dentro do contéudo de Desenvolvimento de fato, tivemos contéudo sobre:
+                <ul class="conteudo">
+                    <li>Visual Studio Code;</li>
+                    <li>Git e GitHub;</li>
+                    <li>Web Frontend Fundamentos de HTML, CSS e JAVASCRIPT;</li>
+                    <li>Bootstrap 5;</li>
+                    <li>Lógica de Programação;</li>
+                    <li>Programação Python;</li>
+                    <li>ChatGPT para Python. </li>
+                </ul>    
+        </section>
+
+        <!-- 9 projetos (6 ao 14) (link dos repositórios no GitHub + link do GitHub Pages)-->
+        <section class="projetos" id="projetos">
+            <article>
+                <h2>Projetos Realizados na Jornada Elas Na Tech</h2><br>
+                <h3 class="h3_video" >Vídeos demonstrativos dos projetos finalizados</h3>
+
+                <div class="container-fluid">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <video src="./videos/Projeto07.mp4" controls>
+                            </div>
+
+                            <div class="carousel-item">
+                                <video src="./videos/Projeto08.mp4" controls>
+                            </div>
+
+                            <div class="carousel-item">
+                                <video src="./videos/Projeto13.mp4" controls>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button> 
+                    </div>
+                </div>   
+              
+                  
+                <h3 class="h3_img">Links para Página de Demonstração e <br> Repositório dos Projetos no GitHub.</h3>
+                <div class="div_projimg">
+                    <div class="proj_img">
+                        <img src="./images/img_projetos/Proj_06" alt="Projeto nº 06" class="tamanho">
+                        <a href="#">Projeto nº 06</a><br>
+                        <a href="https://siqueiratah.github.io/desafio-06/">Página de Demonstração do Projeto</a><br>
+                        <a href="https://github.com/SiqueiraTah/desafio-06">Página do Repositório GitHub</a>
+                    </div>
+
+                    <div class="proj_img">
+                        <img src="./images/img_projetos/Proj_07" alt="Projeto nº 07" class="tamanho">
+                        <a href="#">Projeto nº 07</a><br>
+                        <a href="https://siqueiratah.github.io/desafio-07/">Página de Demonstração do Projeto</a><br>
+                        <a href="https://github.com/SiqueiraTah/desafio-07">Página do Repositório GitHub</a>
+                    </div>
+
+                    <div class="proj_img">
+                        <img src="./images/img_projetos/Proj_08" alt="Projeto nº 08" class="tamanho">
+                        <a href="#">Projeto nº 08</a><br>
+                        <a href="https://siqueiratah.github.io/desafio-08/">Página de Demonstração do Projeto</a><br>
+                        <a href="https://github.com/SiqueiraTah/desafio-08">Página do Repositório GitHub</a>
+                    </div>
+
+                    <div class="proj_img">
+                        <img src="./images/img_projetos/Proj_09" alt="Projeto nº 09" class="tamanho">
+                        <a href="#">Projeto nº 09</a><br>
+                        <a href="https://siqueiratah.github.io/desafio-09/">Página de Demonstração do Projeto</a><br>
+                        <a href="https://github.com/SiqueiraTah/desafio-09">Página do Repositório GitHub</a>
+                    </div>
+
+                    <div class="proj_img">
+                        <img src="./images/img_projetos/Proj_10" alt="Projeto nº 10" class="tamanho">
+                        <a href="#">Projeto nº 10</a><br>
+                        <a href="https://github.com/SiqueiraTah/desafio-10">Página de Demonstração do Projeto</a><br>
+                        <a href="https://siqueiratah.github.io/desafio-10/">Página do Repositório GitHub</a>
+                    </div>
+
+                    <div class="proj_img">
+                        <img src="./images/img_projetos/Proj_11" alt="Projeto nº 11" class="tamanho">
+                        <a href="#">Projeto nº 11</a><br>
+                        <a href="https://siqueiratah.github.io/desafio-11/">Página de Demonstração do Projeto</a><br>
+                        <a href="https://github.com/SiqueiraTah/desafio-11">Página do Repositório GitHub</a>
+                    </div>
+
+                    <div class="proj_img">
+                        <img src="./images/img_projetos/Proj_12" alt="Projeto nº 12" class="tamanho">
+                        <a href="#">Projeto nº 12</a><br>
+                        <a href="https://siqueiratah.github.io/desafio-12/">Página de Demonstração do Projeto</a><br>
+                        <a href="https://github.com/SiqueiraTah/desafio-12">Página do Repositório GitHub</a>
+                    </div>
+
+                    <div class="proj_img">
+                        <img src="./images/img_projetos/Proj_13" alt="Projeto nº 13" class="tamanho">
+                        <a href="#">Projeto nº 13</a><br>
+                        <a href="https://siqueiratah.github.io/desafio-13/">Página de Demonstração do Projeto</a><br>
+                        <a href="https://github.com/SiqueiraTah/desafio-13">Página do Repositório GitHub</a>
+                    </div> 
+
+                    <div class="proj_img">
+                        <img src="./images/img_projetos/Proj_14" alt="Projeto nº 14" class="tamanho">
+                        <a href="#">Projeto nº 14</a><br>
+                        <a href="https://siqueiratah.github.io/desafio-14/">Página de Demonstração do Projeto</a><br>
+                        <a href="https://github.com/SiqueiraTah/desafio-14">Página do Repositório GitHub</a>
+                    </div> 
+
+                </div>
+            </article>
+        </section>
+    
+
+        <!-- Depoimento (video ou apresentação) -->
+        <section class="depoimento" id="depoimento">
+            <h2>Como foi participar da Jornada Elas Na Tech 2023.</h2>
+                <div class="depoimento">
+                    <video src="./videos/Depoimento.mp4" controls>B</video>
+                </div>
+            </section>
+        </div> <!-- depois da abertura do main-->
+    </main>
+
+    <!-- 8 Contatos -->
+    <footer class="contatos" id="contatos">
+        <div class="icone_footer"> 
+            <a href="https://wa.me/+5512988897684"> 
+                <img src="./images/img_icones/whatsapp.png" alt="WhattsApp" class="div_contato">
+            </a> 
+
+            <a href="mailto:talitasiqueira.m@gmail.com">
+                <img src="./images/img_icones/email.png" alt=" Endereço de Email "class="div_contato">
+            </a>
+
+            <a href="tel:+5512988897684">
+                <img src="./images/img_icones/telefone.png" alt=" Número de Telefone"class="div_contato">
+            </a>    
+                
+            <a href="https://github.com/Siqueiratah">
+                <img src="./images/img_icones/github.png" alt=" URL GitHub" class="div_contato">
+            </a>
+          
+            <a href="https://www.linkedin.com/in/talitasiqueira-m/">
+                <img src="./images/img_icones/linkedin.png" alt="URL linkedin"class="div_contato">
+            </a> 
+        </div>   
+        <h5>Desenvolvido por Talita Mara de Siqueira</h5>     
+    </footer>
+
+    <script>
+        var hamburguer = document.getElementById('hamburguer');
+        var itens_menu = document.getElementById('itens_menu');
+
+        hamburguer.addEventListener('click', aparecer);
+
+        function aparecer(){
+            if(itens_menu.style.display == 'block'){
+                itens_menu.classList.remove('show');
+            }else{
+                itens_menu.classList.toggle('show');
+            }
+        }    
+    </script>
+</body>
+</html>

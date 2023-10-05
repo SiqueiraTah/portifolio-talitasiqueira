@@ -1,0 +1,377 @@
+@font-face{
+    font-family: alike;
+    src: url(./fonts/Alike-Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: bellybetty;
+    src: url(./fonts/Belly\ Betty.woff);
+    font-weight: 400;
+}
+html{
+    font-family: alike;
+}
+
+body{
+    background-image: url(./images/img_layout/papel_de_parede5.jpg); 
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+}
+
+.header_logo{
+    width: 35vw;
+    height: auto;  
+    margin-top:1.5em;
+}
+
+#hamburguer{
+    background-color: #364d57e2;
+    color: #59152e;
+    display: block;
+    text-align: center;
+    padding: 0.3em;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.header_nav{
+    background-color:#364d57e2;
+    border-radius: 3px;
+    display: none;
+    text-align: center;
+}
+
+.header_nav.show{
+    display: block;
+}
+
+ul{
+    margin: 0;
+} 
+
+.header_nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.header_nav a{
+    color:azure;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    font-size: 0.8em;
+    font-family: alike;
+}
+
+.header_nav a:hover{
+    background-color: color-mix(in srgb, #1e3c49, #ffffff 30%);
+    color: white;
+}
+
+main{
+    width: 95%;
+    margin: auto;
+}
+
+section{
+    background-color:#d7e6e4;
+    text-align: center;
+    margin: 1em auto 0.7em auto;
+    padding: 0.5em 0 1.5em 0;
+    border-radius: 5px; 
+}
+
+main h2{
+    color:#59152e;
+    padding: 0.8em 0 0 0;
+    font-size: 2em;
+    font-weight: 600;
+    font-family:bellybetty;
+    letter-spacing:0.1em;
+}
+
+main p{
+    color: #1e3c49;
+    text-align:justify;
+    font-size: 0.9em;
+    margin: 0.25rem 1.5rem 2em 1.5rem;
+    text-indent: 2rem;  
+    font-family: alike; 
+    letter-spacing:0.1em;
+} 
+
+main h3{
+    color:#59152e;
+    font-weight: 600;
+    font-family: bellybetty;
+    letter-spacing: 0.1em;    
+}
+
+.sobre_mim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quemsou_titulo{
+    text-align: center; 
+}
+
+.container_quemsou{
+    display:flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row; 
+    vertical-align: baseline;
+} 
+    
+.quemsou_txt{
+    flex: 7;
+    text-align:justify; 
+}
+  
+.quemsou_img{
+    flex: 1;
+    text-align: center;
+    padding: 0 0.5em 1.5em 0.5em;
+}
+  
+.quemsou_img img{
+    width: 9vw;
+    height: auto; 
+} 
+
+.conteudo{
+    padding-left: 2.5em;
+}
+
+.conteudo li{
+    font-family: alike;
+    font-size: 0.9em;
+    color: #1e3c49;
+    text-align:left ;
+    letter-spacing: 0.1em;
+}
+
+.projetos{
+    text-align: center;
+    margin: 0; 
+    padding: 1em 0 2.5em;
+}
+
+.h3_video{
+    padding: 1em 0em 0.5em 0;   
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.h3_img{
+    padding-top: 2.5em;
+    font-size: 1.7em;
+    text-align: center;
+}
+.carousel-inner video{
+    width: 60vw;
+    height: auto;
+}
+
+.carousel-control-prev-icon{
+    position:absolute;
+    top: 50%;
+    transform: translateX(400%);
+}
+
+.carousel-control-next-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateX(-400%);
+}
+
+.div_projimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:1.5em;
+}
+
+.div_projimg div{
+    height: 25em;
+    width: 17.5em;
+    margin-bottom: 2em;
+}
+
+.tamanho{
+    height: 19.5rem;
+    width: 17.5rem;
+}
+
+.proj_img{
+    background-color: #aac9c4;
+    gap: 3em;
+}
+
+.proj_img a{
+    text-align:center;
+    color:#59152e;
+    font-family: alike;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.depoimento video{
+    width: 60vw;
+    height: auto;
+    padding-top: 1em;
+}
+
+footer{
+    background-color: #aac9c4;
+    font-family: bellybetty;
+    text-align: center;
+    padding: 1em 0 1.5em 0;
+}
+
+.icone_footer{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    text-align: center;
+    padding-top: 0.5em;
+    gap: 1.5em;
+}
+
+.icone_footer a{
+    text-decoration: none;
+}
+
+.div_contato{
+    width: 4vw;
+    height: auto;
+    padding-bottom: 1em;
+}
+
+.icone_footer img:hover{
+    transform: scale(1.1);
+}
+
+footer h5{
+    color:#59152e;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 36em){
+
+    #hamburguer{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:#aac9c4 ; 
+        padding-bottom: 1em;
+    }
+
+    .header_logo{
+        margin-left: 2em;
+    }
+
+    .header_nav{
+        display: block;
+    }
+
+    .header_nav ul{
+        margin-right: 1em;
+        font-size: 0.75em;
+    }
+
+    .header_nav li{
+        display: inline-block;
+    }
+
+    .header_nav a:hover{ 
+        background-color:#275061b4;
+        color:#59152e;
+        background-color: #aac9c4;
+    }    
+   
+    .icone_footer{
+        flex-direction: row;
+        justify-content: center;
+        gap:1em;
+    }
+    .icone_footer a{
+        text-decoration: none;
+    }
+} 
+
+@media screen and (min-width: 80em) {
+    .header_nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin:0;
+        text-transform: uppercase;
+        font-size: 0.7em;
+    }
+    
+    .header_nav a{
+        color:azure;
+        text-decoration: none;
+        display: block;
+        padding: 1em;
+        font-size: 1em;
+        font-family: alike;
+    }
+    
+    .header_nav a:hover{
+        background-color: color-mix(in srgb, #1e3c49, #ffffff 30%);
+        color: white;
+    }
+
+    .carousel-control-prev-icon{
+        position:absolute;
+        top: 50%;
+        transform: translateX(550%);
+    }
+    
+    .carousel-control-next-icon{
+        position: absolute;
+        top: 50%;
+        transform: translateX(-550%);
+    }
+    .div_projimg {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-around;
+    }
+    
+    .proj_img {
+        flex-basis: calc(26% - 1em); 
+        margin-right: 1.5em; 
+    }
+    
+    .div_projimg div{
+        height: 25em;
+        width: 26.5em;
+        margin-bottom: 2em;
+    }
+    
+    .tamanho{
+        height: 19.5rem;
+        width: 26.5rem;
+    }
+}
